@@ -1,4 +1,5 @@
 # 2gis API грабер
+# Поставить зависимости pip install -r required.txt
 
 для получения списка организаций
 > scrapy crawl organizations --nolog -a region_id=5 -o result_of_region_5.json
